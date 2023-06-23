@@ -1,0 +1,245 @@
+.button {
+background-color: #4fd49a;
+color: #a7375a;
+text-decoration: none;
+font-weight: bold;
+padding: 20px 45px;
+border-radius: 30px;
+transition: transform .3s;
+}
+
+.button:hover {
+    transform: scale(1.2);
+}
+
+.h3 {
+    float: right;
+}
+.nav-bar {
+    color:rgb(200, 126, 126)
+    width: 50vw;
+    height: 8vh;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-menu{
+    color: bisque;
+    display: flex;
+    list-style-type: none;
+    width: 60vw;
+    justify-content: space-between;
+}
+
+.nav-menu > li > a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;  
+    color: rgb(173, 113, 23);
+}
+
+.nav-menu > li > a:hover {
+    color: rgb(58, 152, 116);
+    transition: 2s;
+    transform: scale(1.2)
+}
+
+  .who-am-i {
+    background-color: rgb(76, 123, 96);
+    float: right;
+    border-radius: 18%;
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.about-text h2 {
+    color: rgb(192, 123, 157);
+    font-size: 60px;
+    text-transform: capitalize;
+    margin-bottom: 15px;  
+    text-align: center;
+      
+}
+
+.about-text h2 span {
+       text-transform: capitalize;
+       background-image: linear-gradient(
+         -225deg,
+         #653fec 0%,
+         #7b07f6 29%,
+         #ff1361 67%,
+         #fff800 100%
+       );
+       background-size: auto auto;
+       background-clip: border-box;
+       background-size: 200% auto;
+       color: #fff;
+       background-clip: text;
+       text-fill-color: transparent;
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       animation: textclip 2s linear infinite;
+       display: inline-block;
+       font-size: 80px;   
+}
+
+
+
+.about-text h4 {
+    color: rgb(192, 123, 157);
+    letter-spacing: 2px;
+    font-size: 20px;
+    margin-bottom: 18px;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.about-text h4 span:hover {
+    color: #f2b8ca;
+    transition: .2s;
+}
+
+.about-text p {
+    font-family: cursive;
+    color: #f55d8d;
+    text-align: center;
+    margin: 30px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.icon {
+    color: #f55d8d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+data { 
+    color: #f55d8d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.social-media {
+    border-radius: 20px;
+}
+
+.serve h2 {
+    color:rgb(173, 113, 23);
+    font-size: 50px;
+    width: 700px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.web {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 200px;
+}
+
+.development{
+    height: 265px;
+    width: 230px;
+    padding: 20px 35px;
+    background: #a7daba;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.development h5 {
+    color: rgb(173, 113, 23);
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+
+.state {
+    color: rgb(44, 31, 12);
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 22px;
+}
+
+.h1 {
+    color: #270722;
+}
+
+.work {
+    display: flex;
+    align-items: left;
+    min-height: 200px;
+    justify-content: end;
+}
+
+.employment {
+    height: 165px;
+    width: 200px;
+    padding: 20px 35px;
+    background: transparent;
+    border-radius: 10px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.employment h4 {
+    color: #262b37;
+}
+
+.description{
+    color: #5b2953;
+}
+
+.education {
+    display: flex;
+    align-items: right;
+    min-height: 200px;
+    justify-content: end;
+}
+.school {
+    height: 100px;
+    width: 200px;
+    padding: 20px 35px;
+    background: transparent;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+.school h4 {
+    color: #262b37;
+}
+
+.name {
+    color: #5b2953;
+}
+
+.get-in-touch {
+    color:#4fd49a;
+    text-align: center;
+    font-size: 25px;
+}
+.form-group {
+    background: #27CF6B;
+    display: flex;
+    max-width: 190px;
+    padding: 20px 35px;
+    border-radius: 50px;
+    margin: 5px;
+}
+
+.submit {
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px 45px;
+    border-radius: 20px;
+    transition: transform .3s;
+}
